@@ -1,0 +1,199 @@
+	/*--===--custom css start--===--*/
+
+h1.display-4 {
+    color: red;
+	font-size:40px;
+	text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+
+/*--=====--strat here works--======--*/
+#portfolio{
+	position:relative;
+	background:#ffffff;
+}
+.portfolio-manu:hover{
+	display:block;
+	color:red;
+}
+
+.about-top{
+	position:relative;
+}
+.about-top h3 span{
+	color:red;
+}
+.about-top h3::after{
+	position:absolute;
+	content:"";
+	width:90px;
+	height:2px;
+	bottom:88px;
+	left:50%;
+	margin-left:-45px;
+	background:red;
+}
+.about-top h3::before{
+	position:absolute;
+	content:"";
+	width:16px;
+	height:16px;
+	border-radius:50%;
+	bottom:81px;
+	left:50%;
+	margin-left:-8px;
+	background:red;
+}
+button {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 7px;
+    outline: none;
+    background: none;
+    border: 0;
+    margin-top: 18px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+.portfolio-item img{
+	border:10px solid #fff;
+	max-width:100%;	
+}
+.portfolio-item:hover .portfolio-item img{
+	border:10px solid #fff;
+	opacity:0;
+}
+.portfolio-item {
+    position: relative;
+    margin-top: 30px;
+    transition: .3s;
+}
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+}
+.portfolio-content {
+    position: relative;
+    margin-bottom: 100px;
+}
+.portfolio-item .portfolio-item-hover{
+	display:none;
+	overflow:hidden;
+}
+.portfolio-item:hover .portfolio-item-hover{
+	display:block;
+	
+}
+.portfolio-item-hover{
+	position:relative;
+	display:none;
+	 z-index:1;
+}
+
+element.style {
+}
+.portfolio-item-hover i {
+    position: absolute;
+    display: flex;
+    align-item: center !important;
+    justify-content: center;
+    top: 112px;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 50px;
+    line-height: 52px;
+    left: 103px;
+    color: red;
+    z-index: -1;
+    font-size: 34px;
+    transition: .3s;
+    display: none;
+}
+.portfolio-item:hover .portfolio-item-hover i{
+	display:block;
+	
+}
+.portfolio-item-hover {
+    position: absolute;
+    top:0;
+    left: 0;
+    display: flex;
+    align-item: center;
+    justify-content: center;
+    align-items: senter;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+	//display:none;
+	opacity:.55;
+	  transition: .3s;
+}
+
+.about-top h3 {
+    margin-top: 60px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.about-top p {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 45px;
+    margin-bottom: -2px;
+    color: #000;
+}
+.about-top {
+	position:relative:
+}
+
+
+.portfolio-item-hover h5{
+    margin-top:68%;
+    font-size: 20px;
+	color:#8ec448;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.portfolio-item-hover h6{
+    margin-top: 77%;
+    font-size: 20px;
+	color:red;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+button2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 2px solid #353535;
+    padding: 4px 19px;
+    margin-top: 36px;
+    display: inline-block;
+}
+
+.portfolio-item-hover p {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.portfolio-item-hover h5 {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+/*--===--end here works--===--*/
+
+
+	/*--===--custom css end--===--*/
